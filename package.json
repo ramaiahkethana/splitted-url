@@ -1,0 +1,29 @@
+{
+  "name": "splitted-url",
+  "version": "1.0.0",
+  "description": "It will use to identify main domain and hostname from a url",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christyram99/splitted-url.git"
+  },
+  "keywords": [
+    "split-url",
+    "url-spit",
+    "maindomain",
+    "domain",
+    "hostname",
+    "host",
+    "subdomain",
+    "sud domain extractor"
+  ],
+  "author": "christyram99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christyram99/splitted-url/issues"
+  },
+  "homepage": "https://github.com/christyram99/splitted-url#readme"
+}
