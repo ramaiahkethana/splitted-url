@@ -1,6 +1,6 @@
 {
   "name": "splitted-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It will use to identify main domain and hostname from a url",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/christyram99/splitted-url/issues"
   },
-  "homepage": "https://github.com/christyram99/splitted-url#readme"
+  "homepage": "https://github.com/christyram99/splitted-url#readme",
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "nyc": "^15.1.0"
+  }
 }
