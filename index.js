@@ -24,6 +24,4 @@ function split (url) {
   }
 }
 
-module.exports = {
-  split,
-}
+module.exports = split
