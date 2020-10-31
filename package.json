@@ -4,7 +4,7 @@
   "description": "It will use to identify main domain and hostname from a url",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"no tests\""
+    "test": "nyc ava"
   },
   "repository": {
     "type": "git",
