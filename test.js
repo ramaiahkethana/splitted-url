@@ -37,6 +37,12 @@ test('domains testing', t => {
     domain: 'google.com',
   }
   t.deepEqual(splittedUrl('admin.cosole.google.com/v1/users?param1=a'), case6Expected)
+
+  const case7Expected = {
+    host: 'admin.cosole.google.co.in',
+    domain: 'google.co.in',
+  }
+  t.deepEqual(splittedUrl('admin.cosole.google.co.in/v1/users?param1=a'), case7Expected)
 })
 
 test('https domains testing', t => {
@@ -75,6 +81,12 @@ test('https domains testing', t => {
     domain: 'google.com',
   }
   t.deepEqual(splittedUrl('https://admin.cosole.google.com/v1/users?param1=a'), case6Expected)
+
+  const case7Expected = {
+    host: 'admin.cosole.google.co.in',
+    domain: 'google.co.in',
+  }
+  t.deepEqual(splittedUrl('https://admin.cosole.google.co.in/v1/users?param1=a'), case7Expected)
 })
 
 test('http domains testing', t => {
@@ -113,4 +125,10 @@ test('http domains testing', t => {
     domain: 'google.com',
   }
   t.deepEqual(splittedUrl('http://admin.cosole.google.com/v1/users?param1=a'), case6Expected)
+
+  const case7Expected = {
+    host: 'admin.cosole.google.co.in',
+    domain: 'google.co.in',
+  }
+  t.deepEqual(splittedUrl('http://admin.cosole.google.co.in/v1/users?param1=a'), case7Expected)
 })
