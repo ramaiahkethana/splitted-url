@@ -1,6 +1,6 @@
 {
   "name": "splitted-url",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "It will use to identify main domain and hostname from a url",
   "main": "index.js",
   "scripts": {
