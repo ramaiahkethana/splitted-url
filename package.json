@@ -4,7 +4,8 @@
   "description": "It will use to identify main domain and hostname from a url",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "test-coveralls": "nyc npm test && nyc report --reporter=text-lcov | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/christyram99/splitted-url#readme",
   "devDependencies": {
     "ava": "^3.13.0",
+    "coveralls": "^3.1.0",
     "nyc": "^15.1.0"
   }
 }
