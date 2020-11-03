@@ -1,7 +1,7 @@
 {
   "name": "splitted-url",
   "version": "1.0.11",
-  "description": "It will use to identify main domain and hostname from a url",
+  "description": "Use to identify (extract) main domain and hostname from a url. We can also use it as external url checking by comparing domain variable in the result.",
   "main": "index.js",
   "scripts": {
     "test": "nyc ava",
@@ -19,7 +19,12 @@
     "hostname",
     "host",
     "subdomain",
-    "sud domain extractor"
+    "domain name extract",
+    "sud domain extractor",
+    "is external url",
+    "external url",
+    "external url checker",
+    "external-url"
   ],
   "author": "christyram99",
   "license": "ISC",
