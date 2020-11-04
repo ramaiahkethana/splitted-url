@@ -1,3 +1,4 @@
+// data taken from https://en.wikipedia.org/wiki/Country_code_top-level_domain
 const countryWiseSubDomainsList = [
   'ac', 'ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'aq', 'ar', 'as', 'at', 'au', 'aw', 'ax',
   'az', 'ba', 'bb', 'bd', 'be', 'bf', 'bg', 'bh', 'bi', 'bj', 'bm', 'bn', 'bo', 'br', 'bs', 'bt',
