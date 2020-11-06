@@ -15,13 +15,17 @@ npm i splitted-url --save
 ```js
 const spllitedUrl = require('splitted-url')
 
-splittedUrl('https://google.com') // { host: 'google.com', domain: 'google.com' }
+splittedUrl('https://google.com')
+// => { host: 'google.com', domain: 'google.com' }
 
-splittedUrl('https://google.co.in') // { host: 'google.co.in', domain: 'google.co.in' }
+splittedUrl('https://google.co.in')
+// => { host: 'google.co.in', domain: 'google.co.in' }
 
-splittedUrl('https://www.google.com') // { host: 'www.google.com', domain: 'google.com' }
+splittedUrl('https://www.google.com')
+// => { host: 'www.google.com', domain: 'google.com' }
 
-splittedUrl('https://www.google.co.in') // { host: 'www.google.co.in', domain: 'google.co.in' }
+splittedUrl('https://www.google.co.in')
+// => { host: 'www.google.co.in', domain: 'google.co.in' }
 ```
 [npm-image]: https://img.shields.io/npm/v/splitted-url.svg
 [npm-url]: https://npmjs.org/package/splitted-url
