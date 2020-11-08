@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christyram99/splitted-url.git"
+    "url": "git+https://github.com/ramaiahkethana/splitted-url.git"
   },
   "keywords": [
     "split-url",
@@ -26,12 +26,12 @@
     "external url checker",
     "external-url"
   ],
-  "author": "christyram99",
+  "author": "ramaiahkethana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christyram99/splitted-url/issues"
+    "url": "https://github.com/ramaiahkethana/splitted-url/issues"
   },
-  "homepage": "https://github.com/christyram99/splitted-url#readme",
+  "homepage": "https://github.com/ramaiahkethana/splitted-url#readme",
   "devDependencies": {
     "ava": "^3.13.0",
     "coveralls": "^3.1.0",
