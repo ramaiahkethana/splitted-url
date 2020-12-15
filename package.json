@@ -1,6 +1,6 @@
 {
   "name": "splitted-url",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Use to identify (extract) main domain and hostname from a url. We can also use it as external url checking by comparing domain variable in the result.",
   "main": "index.js",
   "scripts": {
