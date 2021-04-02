@@ -13,7 +13,7 @@ npm i splitted-url --save
 
 ### Usage 
 ```js
-const spllitedUrl = require('splitted-url')
+const splittedUrl = require('splitted-url')
 
 splittedUrl('https://google.com')
 // => { host: 'google.com', domain: 'google.com' }
